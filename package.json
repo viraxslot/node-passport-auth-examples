@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "nodemon node ./bin/www"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
@@ -18,5 +18,9 @@
     "passport-jwt": "^3.0.1",
     "pug": "2.0.0-beta11",
     "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13",
+    "passport-http": "^0.3.0"
   }
 }
