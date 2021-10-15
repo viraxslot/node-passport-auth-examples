@@ -19,7 +19,7 @@ passport.use(
     })
 );
 
-router.post('/add-user', (req, res) => {
+router.post('/signup', (req, res) => {
     const body = req.body;
 
     if (!body.username || !body.password) {
