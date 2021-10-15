@@ -13,4 +13,4 @@ Server will be started on `host=localhost:5555`
 | host/cookie/profile | method under cookie auth | - |
 | host/jwt/signup | create new user | body { email: "test", password: "test" } |
 | host/jwt/login | get bearer token | - |
-| host/jwt/profile?secret_token=<token> | get information under the jwt auth | - |
+| host/jwt/profile?secret_token=token | get information under the jwt auth | - |
